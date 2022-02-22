@@ -4,13 +4,18 @@
   "description": "UML class diagram mockup of webapp:\r <img src=\"./Class Diagram Structure.drawio.svg\">",
   "main": "index.js",
   "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
