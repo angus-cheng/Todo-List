@@ -40,4 +40,13 @@ const todoItem = () => {
     return
 };
 
+const bindTodoListChanged = callback => {
+    this.onTodoListChanged = callback;
+}
+
+const deleteTodo = id => {
+    this.todos = this.todos.filter(todo => todo.id != id);
+    this.onTodoListChanged(this.todos);
+}
+
 export default model;

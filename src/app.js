@@ -1,6 +1,7 @@
 import view from './view.js';
 import model from './model.js';
 import controller from './controller.js';
+import './styles.css';
 
 const app = controller(model(), view());
 

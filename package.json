@@ -4,7 +4,9 @@
   "description": "UML class diagram mockup of webapp:\r <img src=\"./Class Diagram Structure.drawio.svg\">",
   "main": "index.js",
   "dependencies": {
+    "css-loader": "^6.6.0",
     "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
     "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.8.0"
   },
